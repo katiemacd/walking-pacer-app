@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <!-- icon for iOS  -->
+    <link rel="apple-touch-icon" sizes="180x180" href="icon2.png">
+    <!-- icon for android -->
+    <link rel="icon" type="image/png" sizes="192x192" href="icon2.png">
+    <title>Walking Pacer</title>
+
+</head>
+<body>
+    <header></header>
+    <main>
+        <div id="inputzone">
+            <p id="time" class="input">0</p>
+            <p id="distance" class="input">0</p>
+            <p id="pace" class="input"></p>
+            <div id="keypad">
+                <div class="button-row">
+                    <button id="b7">7</button>
+                    <button id="b8">8</button>
+                    <button id="b9">9</button>
+                </div>
+                <div class="button-row">
+                    <button id="b4">4</button>
+                    <button id="b5">5</button>
+                    <button id="b6">6</button>
+                </div>
+                <div class="button-row">
+                    <button id="b1">1</button>
+                    <button id="b2">2</button>
+                    <button id="b3">3</button>
+                </div>
+                <div class="button-row">
+                    <button id="bC">C</button>
+                    <button id="b0" >0</button>
+                    <button id="bBack">⇦</button>
+                </div>
+            </div>
+        </div>
+        <div id="livezone">
+            <button id="start">Start</button>
+            <p id="live-distance">Live Distance: 0 metres</p>
+            <p id="average-pace">Average Pace: -- mins/km</p>
+        </div>
+        <div id="inclinezone"><p id="incline-prompt">◬ Tap to show incline ◬</p></div>
+    </main>
+    <footer></footer>
+    <script src="madone.js"></script>
+</body>
+</html>
